@@ -154,7 +154,6 @@
         }
     }
     
-    // move and loop the bushes
     for (CCNode *bush in _bushes) {
         // move the bush
         bush.position = ccp(bush.position.x -
